@@ -1,0 +1,36 @@
+.links-and-contact {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .links,
+  .contact {
+    justify-self: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .submit-button {
+    margin: 20px 0;
+    padding-top: 10px;
+  }
+  input,
+  textarea {
+    padding: 5px;
+    border-radius: 5px;
+    width: 250px;
+    border-color: greenyellow;
+  }
+
+  form {
+    width: 260px;
+    margin: 0 auto;
+  }
+
+  input[type="submit"] {
+    width: 250px;
+    color: green;
+  }
+  @media (max-width: 640px) {
+    .links-and-contact {
+      grid-template-columns: 100%;
+    }
+}

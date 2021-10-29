@@ -1,0 +1,22 @@
+body{
+    background-color: lightcyan;
+}
+hr {
+    border: 0px;
+    height: 1px;
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgb(27, 206, 27),
+      rgba(0, 0, 0, 0)
+    );
+  }
+  h3 {
+    font-size: 25px;
+    color: green;
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  a {
+    font-size: 20px;
+  }

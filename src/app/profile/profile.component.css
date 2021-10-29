@@ -1,0 +1,15 @@
+.profile {
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .image {
+    margin: 3px;
+    width: 2;
+    height: 150px;
+    border-radius: 50%;
+    background-color: greenyellow;
+  }
+  #name {
+    color: green;
+    font-size: 40px;
+  }

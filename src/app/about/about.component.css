@@ -1,0 +1,17 @@
+.about {
+    color: green;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .i-am,
+  .i-like {
+    justify-self: center;
+    font-size: 20px;
+  }
+  @media (max-width: 640px) {
+    .about{
+      display: grid;
+      grid-template-columns: 100%;
+    }
+  }
